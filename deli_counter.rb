@@ -14,7 +14,7 @@ def take_a_number(array, name)
 	puts "Welcome, #{name}. You are number #{spot} in line."
 end
 
-def now_serving(katz_deli)
+def now_serving(array)
 	if katz_deli.empty?
 		puts "There is nobody waiting to be served!"
 	else
