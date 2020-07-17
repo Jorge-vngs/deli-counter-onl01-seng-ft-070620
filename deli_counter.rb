@@ -8,6 +8,8 @@ def line(katz_deli)
  end
  end 
 
-def now_serving(array) 
-  
-end 
+def take_a_number(array, name)
+	array.push(name)
+	spot = array.index(name) + 1
+	puts "Welcome, #{name}. You are number #{spot} in line."
+end
