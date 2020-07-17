@@ -13,3 +13,4 @@ def take_a_number(array, name)
 	spot = array.index(name) + 1
 	puts "Welcome, #{name}. You are number #{spot} in line."
 end
+
