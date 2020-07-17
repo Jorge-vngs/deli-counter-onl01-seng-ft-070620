@@ -1,7 +1,7 @@
-def line(array)
-  if array.count > 1
+def line(katz_deli)
+  if katz_deli.count > 1
    output = "The line is currently:"
-   array.each_with_index {|val, index| output << " #{index+1}. #{val}"}
+   katz_deli.each_with_index {|val, index| output << " #{index+1}. #{val}"}
    puts output
    else 
      puts "The line is currently empty."
